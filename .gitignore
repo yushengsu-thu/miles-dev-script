@@ -1,0 +1,10 @@
+# Ignore everything
+*
+
+# Allow these file types
+!*.py
+!*.sh
+
+# Allow gitignore and README
+!.gitignore
+!README.md
