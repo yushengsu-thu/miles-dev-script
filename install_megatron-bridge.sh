@@ -9,6 +9,7 @@
 cd /home/ubuntu/yushengsu/Megatron-Bridge
 git config --global --add safe.directory /home/ubuntu/yushengsu/Megatron-Bridge
 git submodule update --init
+pip install -e . --no-deps --no-build-isolation --break-system-packages
 
 ## test if the installation is successful
-python -c "from megatron.core.package_info import __version__; print(__version__)"
+python3 -c "from megatron.core.package_info import __version__; print(__version__)"
